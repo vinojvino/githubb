@@ -10,3 +10,9 @@ print(type(price))
 price=int(price)
 print(price)
 print(type(price))
+
+p=(18,20,19)
+q=(30)
+s=(30,20,30)
+
+
