@@ -13,5 +13,6 @@
 #git pull
 
 #git branch branch name (create a new branch)
-#git hub
+#git checkout branch name (switch branch)
+#git merge branch name (by staying in master branch)
 
