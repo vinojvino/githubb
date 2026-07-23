@@ -70,4 +70,11 @@ for i in range(n-1):
             numbers[j+1]=temp
 print(numbers)
 
+num=int(input("how many words you wish to enter:"))
+words=[]
+for a in range(num):
+    thing=input("enter the word:")
+    words=words+[thing]
+print(words)
+
 

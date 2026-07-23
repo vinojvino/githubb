@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+        }
+        .feature{
+            border: 1px dotted blue;
+            border-radius: 4px;
+            background-color:darkkhaki;
+            width: 400px;
+            margin: 50px;
+            padding: 12px;
+        }
+        .abouts{
+            border: 2px dashed black;
+            background-color: pink;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .feature h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .test{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="abouts">
+        <dev>
+            <span>one team</span>
+        </dev>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">about us</a></li>
+            <li><a href="">contact us</a></li>
+            <li><a href="">register</a></li>
+            <li><a href="">login</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="css-intro"></section>
+<h2>introduction to css</h2>
+        <div class="test">
+            <div class="feature">
+                <h3>The Cascade & Specificity</h3>
+                <p>Resolves styling conflicts by prioritizing rules based on their importance, source order, and selector specificity.</p>
+            </div>
+            <div class="feature">
+                <h3>Separation of Concerns</h3>
+                <p>Keeps HTML focused strictly on content structure while CSS handles the entire visual presentation.</p>
+            </div>
+            <div class="feature">
+                <h3>Reusability</h3>
+                <p>Allows a single external stylesheet file to control the global design of thousands of pages simultaneously</p>
+            </div>
+            <div class="feature">
+                <h3>The CSS Box Model</h3>
+                <p>Defines how every HTML element is treated as a rectangular box, governing its content, padding, borders, and margins</p>
+            </div>
+        </div>
+</body>
+</html>
